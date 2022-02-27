@@ -1,0 +1,235 @@
+
+<<IntellJ - 단축키 정리>>
+============================================
+
+[Plugins]
+---------------------------
+  1. Ctrl + ALT + S : setting 화면 띄우기 
+  2. Plugins : 메뉴선택
+   
+   또다른 방법
+  * shift 2번 선택 : Plugin 검색 
+	
+	Lombok 검색 해서 설치
+
+
+
+[class]
+ 1. alt + Enter :  add package class
+
+
+shift + F6 : rename
+
+
+[Gradle]
+Load Gradle Change : ctrl + shift + O (알파펫 O)
+
+
+[comment]
+ ctrl + / :  주석처리
+
+
+1. 단위 테스트 만들기 :  ctrl+shift + T 
+
+
+2. JUnit 실행 : Ctrl + Y
+
+
+
+[단위Test]
+--------------------------------
+ctrl + shift + f10  : 테스트 실행
+
+
+
+
+[단축키]설명
+=================================
+
+Alt + 1 :  focus Project 창으로 이동 
+
+esc :  focus Edit 이동
+
+
+[창이동]
+미리보기 :  project 창에서 space 선택 , ESC 창 닫기
+
+에디터 창 키우기 : ctrl + shift + F12 
+
+
+에디터 창 이동 : ctrl + tab
+
+
+[파일생성]
+------------------------------------------------
+ ctrl + alt + insert :  Edit 에서 생성
+
+ alt + insert : 
+
+
+이전: alt + <- 
+이후 : alt + ->
+
+ctrl + 글자선택 : 선언 정의부로 이동
+
+
+[사용처찾기]
+-----------------------------------
+alt + F7 : 찾기
+ctrl + B : 빠른 찾기
+
+
+
+[파일검색]
+-----------------------------
+ ctrl + F : 파일단위 찾기 
+ 
+ F3, shfit + F3 :  폴더 단위 프로젝트 단위에서 찾기
+
+ shift 두번 :  찾기 창 생성
+
+
+[최근파일 목록 열기]
+--------------------------------------
+ ctrl + E :  창에서 최근 내역 이동 선택 후 Enter -> 이동
+
+
+
+
+
+[커서이동]
+-------------------------------
+ ctrl + <- -> : 단어별 이동
+ home, end : 시작 끝
+ page up, page down : 
+
+
+선택 확장/축소
+ ctrl + W :  커서 선택 확장
+ ctrl + shift + W :  커서 선택 축소
+
+
+[주석처리]
+-------------------------------------
+ ctrl +  /  :  한출 주석 
+ shift + ctrl + / :  블럭 주석
+
+
+ tab : 인덴트 맞추기
+
+ ctrl + alt + I :  자동 인덴트 
+
+
+
+--------------------------------
+
+
+
+[Edit]에서 
+------------------------------------------
+sout  :  system.out.println(); // 생성
+
+ctrl + J :  에서 확인가능
+
+[퀵 픽스]
+ alt + Enter :  // override 메소드적용가능
+
+ 코드 이슈별 이동 
+   F2, Shfit + F2  : error 위치로 이동
+
+ 
+[ Import 최적화]
+  ctrl + alt + O  // 사용되지 않는 import 지워줌.
+
+ 
+ [ 코드 생성 ]
+ 마우스 오른쪽 > Generator 로 생성
+ alt + Ins ;
+
+
+ [파라미터 정보 ]
+ **  ctrl + P : 파라미터 정보보기 
+ 
+[Quick Definition]
+ CTRL + SHIFT + I  : 미리보기 창
+
+
+
+[Quick Document]
+ > CTRL + Q :  구현부 설명
+
+
+[Java Doc]
+-------------------------------
+ /** + ENTER :  주석생성
+
+
+
+[메소드 자동완성]
+------------------------------
+ ctrl + O :  override
+ ctrl + I  : implement 
+
+
+[터미널 창]
+  ALT + F12 :  terminal  창
+
+[구문완성]
+  SHIFT  + CTRL + ENTER :  구문완성 );  생성됨.  (X) 안됨
+
+ [대체하기]
+ CTRL + R : // 파일내 대체
+ CTRL + SHIFT + R : //경로내 대체
+
+
+[Run anything] 
+ CTRL: 2번 : 실행하기
+ 
+ CTRL + SHFIT + F10  : 커서 위치에서 실행
+
+
+
+[단축키 기능 찾기]
+ > SHFIT + CTRL + A :  검색창에 찾고자 하는 입력값.
+
+
+
+==================================
+ 단축키 응용
+ -----------------------------------------------------
+- 테스트 코드
+- 디버깅
+- 리팩토링
+- 커스텀 단축키 설정하기
+
+
+ [ 테스트 코드 ]
+  ALT + ENTER :  테스트 하고자 하는 class 선택 후 , alt + enter  > create test 메뉴선택
+
+
+[테스트 코드]
+  CTRL + SHFIT + T : 테스트 코드 이동  생성 
+
+  해당 메소드만 실행하고자 하면 메소드 명에서 커서두고 실행
+
+ 
+  선택된 테스트 실행 : CTRL + SHIFT + F10 
+  정지 :  Ctrl + F2 
+
+
+ [리펙토링]
+  F6 : 리펙토링 
+
+ 
+ = HTTP 상태코드 
+https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C 
+
+
+Gradle view 보기
+ view > Tool windows > Gradle 선택 
+
+ Gradle 상단 > reload 화살표 선택
+
+
+
+
